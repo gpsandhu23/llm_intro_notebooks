@@ -1,0 +1,6 @@
+jupyter
+python-dotenv
+langchain
+langchain-openai
+langchain-anthropic
+langchain_google_genai
