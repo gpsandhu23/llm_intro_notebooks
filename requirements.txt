@@ -4,3 +4,4 @@ langchain
 langchain-openai
 langchain-anthropic
 langchain_google_genai
+langchain_community
