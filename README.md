@@ -22,6 +22,26 @@ To get started with these notebooks, you will need to set up your environment:
 2. Install the required dependencies listed in `requirements.txt` by running `pip install -r requirements.txt`.
 3. Ensure you have Jupyter installed to run the notebooks. If not, it can be installed via pip with `pip install jupyter`.
 
+## Setting Up a Python Virtual Environment
+
+To ensure a consistent environment for running these notebooks, it's recommended to use a Python virtual environment. Here are the steps to set up a virtual environment on major operating systems:
+
+### macOS and Linux:
+
+1. Open a terminal.
+2. Navigate to the project directory.
+3. Run `python3 -m venv llm_env` to create a virtual environment named `llm_env`.
+4. Activate the virtual environment by running `source llm_env/bin/activate`.
+
+### Windows:
+
+1. Open Command Prompt.
+2. Navigate to the project directory.
+3. Run `python -m venv llm_env` to create a virtual environment named `llm_env`.
+4. Activate the virtual environment by running `.\llm_env\Scripts\activate`.
+
+To deactivate the virtual environment, simply run `deactivate` in your terminal or Command Prompt.
+
 ## Environment Variables
 
 Some notebooks require API keys to access external services like OpenAI, Langchain, and Google API. To set these up:
