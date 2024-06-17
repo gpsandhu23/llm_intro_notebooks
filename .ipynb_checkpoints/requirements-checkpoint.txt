@@ -1,0 +1,11 @@
+jupyter
+python-dotenv
+langchain
+langchain-openai
+langchain-anthropic
+langchain_google_genai
+langchain_community
+beautifulsoup4
+langchain-chroma
+wikipedia
+langgraph
